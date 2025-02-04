@@ -1,0 +1,64 @@
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+a {
+    font-size:1.5em;
+    color:white;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+img {
+    width: 80%;
+    text-align: center;
+    display: black;
+    margin:0 auto;
+}
+
+* {
+    border: 2px solid blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+
+
+body {
+    text-align: center;
+}
+
+p {
+    width:80%;
+}
+
+
+
+
+
+
+
+
+
+/* selectors
+1 element use header/body/paragraph/footer
+2 class use specific look .name
+3 ID use unique #name */
