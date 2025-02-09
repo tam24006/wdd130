@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.dake-background{
+    background-color: #737373;
+    
+}
+.images img {
+    width: 20%;
+    margin: 5%;
+    border: 20px solid black;
+    border-radius: 100%;
+}
+
+.images{
+    text-align: center;
+    
+}
+
