@@ -1,31 +1,86 @@
+#header{
+  color: rgb(60, 79, 28);
+  background-color: darkgreen;
+  width: 100%;
+}
+
+
+
+
+
 .home-title{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2em;
   margin-top: 20px;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgb(60, 79, 28);
+}
+h1{
+  columns: black;
+  text-align: right;
+}
+nav a{
+  text-align: center;
+  color: green;
+  text-decoration: none;
 }
 #content{
   max-width: 1400px;
   margin: 0 auto;
 }
-nav a{
-  text-align: center;
-  color: darkolivegreen;
-  text-decoration: none;
-  padding: 30px;
-}
 #hero_msg h1, #hero_msg h4{
   text-align: center;
 }
-header{
+#header{
   display: grid;
   grid-template-columns: 200px;
-  background-color: darkolivegreen;
+  background-color: rgb(60, 79, 28);
+  
 }
 #logo_link{
-  padding: 10px;
-
-
+  padding: 5px;
 }
 #beauty-products{
   width: 100%;
 }
+body{
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  grid-template-columns: 100%;
+  letter-spacing: 0.06rem;
+  background-color: olivedrab;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding: 0;
+
+}
+footer{
+  text-align: center;
+  background-color: olive;
+
+}
+main section{
+  text-align: center;
+
+}
+
+.home-grid {
+  width: 80%;
+  background-color: darkolivegreen;
+  text-align: center;
+}
+#skin{
+  width: 90%;
+  background-color: olivedrab;
+  box-shadow:0cap;
+}
+.h1{
+  text-align: right;
+  text-shadow: 0ch;
+  text-decoration-color: darkslategrey;
+}
+.h4{
+  text-align: left;
+}
+
