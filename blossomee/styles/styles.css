@@ -2,6 +2,11 @@
 *{
   text-decoration: none;
 }
+.homegrid{
+  display: grid;
+  grid-template-rows: repeat(5, fr);
+  grid-template-columns: repeat(5, fr)
+}
 .navbar{
   background:  rgb(13, 128, 13);
   font-family:Arial, Helvetica, sans-serif;
@@ -41,26 +46,38 @@ button a{
 
 }
 .serum-1{
-  position: absolute;
   width: 70%;
   left: 15%;
   top: 20%;
   background-color: aquamarine;
   padding: 30px;
+  align-items: end;
 
 }
 .skincare4-img{
-  float: left;
-  width: 20%;
+  /* float: left;
+  width: 20%; */
+  max-width: 100%;
+  height: auto;
 }
 .skincare-img{
-  position: absolute;
   width: 50%;
   right: 15%;
   bottom: 20%;
   background-color: rgb(5, 100, 69);
   padding: 30px;
 }
+.skincare-img{
+  float: right;
+  width: 20,33%;
+  padding: 5px;
+}
+.care-2::after{
+  width: 50%;
+  grid-template-rows: 1/2;
+  display: table;
+}
+
 .logo{
   width: 15%;
   aspect-ratio: 3/2;
